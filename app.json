@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/template/template",
+    "pages/logs/logs",
+    "pages/swiper/swiper"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ff8719",
+    "navigationBarTitleText": "监理宝",
+    "navigationBarTextStyle":"white"
+  }
+}

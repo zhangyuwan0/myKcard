@@ -1,0 +1,7 @@
+<!--pages/template/template.wxml-->
+<import src="../template/template-item/template-item.wxml"/>
+
+<view>
+  <text>{{item.index}}</text>
+  <template is="item" data='{{...item}}'/>
+</view>

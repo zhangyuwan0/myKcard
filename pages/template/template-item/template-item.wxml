@@ -1,0 +1,6 @@
+<template name="item">
+  <view class='item-container'>
+    <text catchtap='clickFun'>我是1号 {{"index is:" + index}}</text>
+    <text catchtap='clickFun'>我是2号</text>
+  </view>
+</template>
