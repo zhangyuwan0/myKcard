@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "send-loading" : "/components/loading/send-loading"
+  }
+}

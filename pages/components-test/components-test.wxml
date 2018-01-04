@@ -1,0 +1,6 @@
+<!--pages/components/components.wxml-->
+<view>
+  <custom-input shown-label="true">
+    <text>我是插入的字段</text>
+  </custom-input>
+</view>

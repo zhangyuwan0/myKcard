@@ -1,0 +1,5 @@
+{
+  "usingComponents" : {
+    "custom-input" : "/components/form/custom-input/custom-input"
+  }
+}

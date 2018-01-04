@@ -1,0 +1,18 @@
+<!--components/form/custom-input/custom-input.wxml-->
+<view>
+  <!-- 项目图标 -->
+  <image class="logo" src='{{iconUrl}}'>
+  </image>
+  <!-- 项目标签 -->
+  <label wx:if="{{shownLabel}}">
+    测试
+  </label>
+  <!-- 分割线 -->
+  <view class="split-line">|</view>
+  <!-- 信息输入框 -->
+  <input type='{{inputType}}' placeholder='{{inputHint}}' confirm-type='{{isLastItem?"done":"next"}}'
+  bindconfirm='{{confirmClicked}}' confirm-hold='{{isLastItem?flase:true}}' password='{{isPassword}}'/>
+  <!-- sendBtn -->
+  <send-loading />
+  <slot></slot>
+</view>

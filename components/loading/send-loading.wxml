@@ -1,0 +1,11 @@
+<!--components/loading/send-loading.wxml-->
+<view style='margin-left:20px;width:10px;height:10px' class='.loader .line-spin-fade-loader'>
+  <view></view>
+  <view></view>
+  <view></view>
+  <view></view>
+  <view></view>
+  <view></view>
+  <view></view>
+  <view></view>
+</view>

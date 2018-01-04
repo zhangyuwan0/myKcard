@@ -1,0 +1,7 @@
+/* components/form/custom-input/custom-input.wxss */
+
+.logo {
+  width: 30px;
+  height: 30px;
+  padding: 16px;
+}
