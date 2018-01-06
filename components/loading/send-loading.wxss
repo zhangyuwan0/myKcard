@@ -2,7 +2,7 @@
 
 @keyframes line-spin-fade-loader {
   50% {
-    opacity: 0.3;
+    opacity: 0;
   }
 
   100% {
@@ -14,13 +14,8 @@
   position: relative;
 }
 
-.line-spin-fade-loader > view:nth-child(1) {
-  top: 10px;
-  left: 0;
-  animation: line-spin-fade-loader 1.2s 0.12s infinite ease-in-out;
-}
 
-.line-spin-fade-loader > view:nth-child(2) {
+/* .line-spin-fade-loader > view:nth-child(2) {
   top: 6.81818px;
   left: 6.81818px;
   transform: rotate(-45deg);
@@ -68,12 +63,11 @@
   animation: line-spin-fade-loader 1.2s 0.96s infinite ease-in-out;
 }
 
-.line-spin-fade-loader > view {
+ .line-spin-fade-loader > view {
   background-color: gray;
   border-radius: 2px;
-  margin: 2px;
   animation-fill-mode: both;
   position: absolute;
   width: 3px;
   height: 10px;
-}
+}  */

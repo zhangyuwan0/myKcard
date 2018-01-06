@@ -1,7 +1,6 @@
 <!--components/loading/send-loading.wxml-->
-<view style='margin-left:20px;width:10px;height:10px' class='.loader .line-spin-fade-loader'>
-  <block wx:for="{{itemCount}}">
-    <view></view>
+<view style='{{containerStyle}}' class='.loader .line-spin-fade-loader'>
+  <block wx:for="{{itemStyleList}}" wx:for-item="itemStyle">
+    <view style='{{itemStyle}}'></view>
   </block>
-  
 </view>
